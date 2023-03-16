@@ -1,5 +1,5 @@
-body{
-  margin: 0px;
+body {
+  margin: 0;
 }
 
 .title {
@@ -7,31 +7,31 @@ body{
   border-right: 1px solid black;
 }
 
-.title p{
-  margin: 0px;
+.title p {
+  margin: 0;
   font-size: 30px;
 }
-@media(max-width: 1102px){
-  .title p{
-      font-size: 20px;
-      padding: 1rem 0;
 
+@media (max-width: 1102px) {
+  .title p {
+    font-size: 20px;
+    padding: 1rem 0;
   }
 }
 
-@media(max-width: 800px){
-  .title p{
-      font-size: 15px;
+@media (max-width: 800px) {
+  .title p {
+    font-size: 15px;
   }
 }
 
-@media(max-width: 800px) {
-  .sidebar{
-      padding: 10px;
+@media (max-width: 800px) {
+  .sidebar {
+    padding: 10px;
   }
 }
 
-nav{
+nav {
   height: 100%;
   width: 21%;
   position: fixed;
@@ -41,7 +41,7 @@ nav{
   z-index: 1;
 }
 
-nav a{
+nav a {
   text-decoration: none;
   border-right: 1px solid black;
   border-top: 1px solid black;
@@ -50,11 +50,10 @@ nav a{
   color: black;
   padding-left: 40px;
   font-size: 0.85rem;
-
 }
 
-/* Media Query for responsive sidebar*/
-main{
+/* Media Query for responsive sidebar */
+main {
   margin-left: 22%;
   padding: 20px;
 }
@@ -63,12 +62,12 @@ header {
   font-size: 30px;
   margin-top: 20px;
 }
-.main-section p{
+
+.main-section p {
   font-size: 15px;
   margin: 5px;
   margin-left: 18px;
 }
-
 
 li {
   margin-left: 10px;
